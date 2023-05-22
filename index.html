@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>calculator</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="calculator"> 
+    <div class="container">
+      <div class="mode">
+        <div class="light">
+          <img src="./icons/sun-solid.svg" width="30"  alt="light">
+        </div>
+        <div class="switch">
+
+        </div>
+        <div class="dark">
+          <img src="./icons/moon-solid.svg" width="25" alt="dark">
+        </div>
+      </div>
+      <div class="issue">
+        you can't start with point
+      </div>
+      <div class="result-element">
+        
+      </div>
+      <div class="btns-wrapper">
+
+        <div class="row">
+          <button class="delete-all">AC</button>
+          <button class="delete">C</button>
+          <button class="operator" data-operator="/">/</button>
+          <button class="operator" data-operator="*">*</button>
+        </div>
+
+        <div class="row">
+          <button class="number" data-number="7">7</button>
+          <button class="number" data-number="8">8</button>
+          <button class="number" data-number="9">9</button>
+          <button class="operator" data-operator="-">-</button>
+        </div>
+
+        <div class="row">
+          <button class="number" data-number="4">4</button>
+          <button class="number" data-number="5">5</button>
+          <button class="number" data-number="6">6</button>
+          <button class="operator" data-operator="+">+</button>
+        </div>
+
+        <div class="bottom-row">
+          <button class="number" data-number="1">1</button>
+          <button class="number" data-number="2">2</button>
+          <button class="number" data-number="3">3</button>
+        </div>
+        <button class="equal" data-operator="=">=</button>
+
+        <div class="bottom-row">
+          <button class="number" data-number="0">0</button>
+          <button class="number" data-number="00">00</button>
+          <button class="number point" data-number="." data=".">.</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./app.js"></script>
+</body>
+</html>
